@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function HeaderMenu() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="warning" expand="lg">
             <Container fluid>
                 <Navbar.Brand href="/">
                     <img
@@ -37,7 +37,7 @@ function HeaderMenu() {
                                 className="me-2"
                                 aria-label="Search"
                             />
-                            <Button variant="outline-success">Search</Button>
+                            <Button variant="outline-primary">Search</Button>
                         </Form>
 
                         <Nav.Link className="px-sm-2" href="/login">
