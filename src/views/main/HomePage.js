@@ -1,10 +1,18 @@
+import HeroImage from "./HeroImage";
+import CardImage from "./HeroImage";
 
 
 const HomePage = () => {
 
 
     return (
-        <h1>Welcome to my shop!</h1>
+        <CardImage
+
+            title="Productopia"
+            text="If we have it, we sell it"
+            imageSrc="/img/hero.jpg"
+
+        ></CardImage>
     )
 
 }
